@@ -1,0 +1,377 @@
+ .navbtm-deltory {
+  margin-top: 48px;
+ }
+ 
+ .deltory-patinfo {
+  display: flex;
+  gap: 1rem;
+    width: 40%;
+    justify-content: center;
+    margin-top: 3px;
+ }
+
+ .deltory-pathead{
+    display: flex;
+    width: 100%;
+  }
+
+  
+  .deltory-patalign{
+    font-size: 16px;
+    padding: 3px;
+    color: black;
+  }
+
+  /*backbtncss*/
+  .backbutton-deltory {
+    display: flex;
+    height: 2.2em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+   }
+   
+   .backbutton-deltory > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   .backbutton-deltory:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .backbutton-deltory:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #d1d1d1;
+    transform: translateY(-2px);
+   }
+   .deltorywrap{
+    white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-height: 100px; 
+        overflow-y: auto;
+        text-align: center;
+        padding: 5px;
+        width: 550px;
+  }
+  
+  .deltorywrap1{
+    white-space: normal;
+        word-wrap: break-word;
+        max-height: 100px; 
+        overflow-y: auto;
+        text-align: center;
+        padding: 5px;
+        width: 550px;
+      }
+
+
+.nav-maindel {
+  width: 100%;
+  
+position: fixed; /* Fix the navbar */
+top: 0;
+background-color: #005078; /* Add background color for visibility */
+z-index: 1000; 
+  
+}
+
+.navbar-fulldel {
+display: flex;
+background-color: #005078;
+color: white;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+width: 100%;
+box-sizing: border-box;
+padding: 0.1rem 0px;
+margin: 0;
+
+}
+
+.nav-containerdel {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+
+.nav-uldel {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-middledel{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+.nav-leftdel {
+  display: flex;
+  width: 30%;
+}
+
+.nav-uldel li {
+  margin-right: 15px; 
+}
+
+.nav-menudel {
+  display: none;
+  cursor: pointer;
+}
+
+.img-outdel  {
+   display: flex;
+   width: 1.7rem;
+   margin-right: 5px;
+   cursor: pointer;
+}
+
+.h4-middel {
+  font-size: 1.4rem;
+}
+
+  .h5-leftdel {
+    font-size: 1.2rem;
+  }
+
+
+  .deltory-main {
+  margin: 0.5rem;
+  /* margin-top: 1rem;  */
+border: 1px solid ;
+border-radius: 10px; 
+border-color: rgb(218, 209, 209); 
+width: 99%;  
+height: auto; 
+background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, 
+rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,
+rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, 
+rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); 
+background-blend-mode:overlay,overlay,overlay,normal;
+box-shadow: 0 2px 0 hsla(0,0%,69%,.12);
+overflow-x: auto;
+}
+
+.deltory-searchbox-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+gap: 1rem; 
+/* margin-top: 0.6rem; */
+}
+
+.deltory-searchbox {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  padding: 0.2rem;
+  width: 20%;
+  height: 30%;
+  background-color: white;
+}
+
+
+
+.deltorysearch-input {
+  margin-left: 0.3rem;
+  display: flex;
+  border: none;
+  outline: none;
+  width: 93%;
+  margin-right: 0.3rem;
+  background: none;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .deltory-searchbox {
+      width: 45%; 
+  }
+}
+
+@media screen and (max-width: 900px) {
+.deltory-searchbox{
+   width: 35%; 
+}
+
+}
+
+@media screen and (max-width: 510px) {
+.deltory-searchbox{
+  width: 100%; 
+}
+}
+
+@media screen and (max-width: 700px) {
+  .deltory-searchbox {
+      width: 70%; 
+      /* min-width: 150px; */
+  }
+  .deltory-searchbox-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; /* Ensures they remain in one row */
+}
+ 
+}
+
+
+.tablescroll-deltory{
+max-height: calc(100vh - 200px);
+min-height: 400px;
+/* height: 69vh; */
+overflow-y: auto; 
+align-items: center;
+margin: 0.5rem;
+}
+
+
+.deltory-table {
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+border: none !important;
+
+
+}
+
+.deltorytable-head {
+background-color: #005078;
+color: white;
+font-size: 0.98rem;
+font-weight: 600;
+position: sticky;
+top: 0;
+z-index: 2;
+}
+
+.deltorytable-head th {
+padding: 0.3rem;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+
+.deltorytable-row {
+font-size: 0.75rem;
+border: none !important;
+/* position: relative; */
+}
+
+
+
+.deltorytable-row td {
+padding: 0.5rem;
+white-space: nowrap;
+box-sizing: border-box;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+/* position: relative; */
+}
+
+#even-rowdeltory {
+background-color: #a2c2cc;
+border: none !important;
+}
+
+#odd-rowdeltory {
+background-color: #ffffff;
+border: none !important;
+}
+
+/* Additional fixes for any inherited borders */
+.tablescroll-deltory table, 
+.tablescroll-deltory tr, 
+.tablescroll-deltory th, 
+.tablescroll-deltory td {
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+
+.pagin-rightdeltory {
+font-size: 1rem;
+}
+.deltorytable-pagin {
+display: flex;
+justify-content: space-between;
+padding: 0.1rem;
+}
+
+@media screen and (min-width: 1900px) and (max-width:4000px) {
+  .nav-middledel .h4-middel {
+    font-size: 1.55rem;
+  }
+  .nav-leftdel .h5-leftdel {
+    font-size: 1.25rem;
+  }
+  .img-outdel {
+    width: 35px;
+    height: 35px;
+  }
+  .backbutton-deltory {
+        height: 2.5rem;
+     }
+     .backbutton-deltory  span {
+      font-size: 1.2rem;
+     }
+     .deltory-patalign {
+      font-size: 1.3rem;
+     }
+      .deltory-searchbox {
+      font-size: 1.2rem;
+     }
+     .tablescroll-deltory {
+      height: 78vh;
+     }
+     .deltorytable-head {
+      font-size: 1.2rem;
+     }
+     .deltorytable-row {
+      font-size: 1rem;
+     }
+     .deltorytable-row td {
+      padding: 0.4rem;
+     }
+     .pagin-rightdeltory {
+      font-size: 1.1rem;
+     }
+}
+
+  @media screen and (min-width: 1600px) and (max-width:1890px) {
+      .deltorytable-row {
+      font-size: 0.88rem;
+     }
+  }

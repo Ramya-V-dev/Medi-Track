@@ -1,0 +1,56 @@
+.mediview-btn {
+    border-radius: 5px;
+}
+
+.medi-view-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.medi-view-heading h3{
+   margin-left: 32%;
+}
+.mediview-label-input {
+    margin: 0;
+    width: 100%;
+    margin-left: 2.5rem;
+    
+}
+.mediview-span {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.mediview-label {
+    width: 23%;
+    text-align: left;
+}
+.mediview-input {
+    width: 70%;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1900px) and (max-width: 4000px) {
+    .mediview-btn {
+    padding: 0.3rem 1.2rem;
+    font-size: 1.2rem;
+}
+.medi-view-heading h3{
+   font-size: 2rem;
+}
+.mediview-label-input {
+    margin: 0;
+    width: 100%;
+    margin-left: 2.5rem;
+}
+.mediview-span {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.mediview-label {
+   font-size: 1.4rem;
+}
+.mediview-input {
+    font-size: 1.2rem;
+}
+}
+

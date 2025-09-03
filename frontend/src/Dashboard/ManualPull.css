@@ -1,0 +1,309 @@
+.nav-mainpull {
+  width: 100%;
+  
+position: fixed; /* Fix the navbar */
+top: 0;
+background-color: #005078; /* Add background color for visibility */
+z-index: 1000; 
+  
+}
+
+.navbar-fullpull {
+display: flex;
+background-color: #005078;
+color: white;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+width: 100%;
+box-sizing: border-box;
+padding: 0.3rem 0px;
+margin: 0;
+
+}
+
+.nav-containerpull {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+
+.nav-ulpull {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-middlepull{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.nav-leftpull {
+  display: flex;
+  width: 30%;
+}
+
+.nav-leftpull h4{
+  display: flex;
+  margin-left: 0.5rem;
+  text-align: center;
+  /* font-size: 1.2rem; */
+
+}
+
+.nav-leftpull .h5-leftpull {
+  font-size: 16px;
+}
+
+  .nav-middlepull .h4-midpull {
+    font-size: 20px;
+  }
+
+
+.nav-ulpull li {
+  margin-right: 15px; 
+}
+
+.nav-menupull {
+  display: none;
+  cursor: pointer;
+}
+
+.pull-main {
+  margin: 0.5rem;
+  margin-top: 3.8rem; 
+border: 1px solid ;
+border-radius: 10px; 
+border-color: rgb(218, 209, 209); 
+width: 99%;  
+height: auto; 
+background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, 
+rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,
+rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, 
+rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); 
+background-blend-mode:overlay,overlay,overlay,normal;
+box-shadow: 0 2px 0 hsla(0,0%,69%,.12);
+overflow-x: auto;
+}
+
+.pull-searchbox-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+gap: 1rem; 
+/* margin-top: 0.6rem; */
+}
+
+.pull-searchbox {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  width: 20%;
+  height: 50%;
+  background-color: white;
+}
+
+.pullsearch-input {
+  margin-left: 0.3rem;
+  display: flex;
+  border: none;
+  outline: none;
+  width: 93%;
+  margin-right: 0.3rem;
+  background: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .pull-searchbox {
+      width: 45%; 
+  }
+}
+
+@media screen and (max-width: 900px) {
+.pull-searchbox {
+   width: 35%; 
+}
+
+}
+
+@media screen and (max-width: 510px) {
+.pull-searchbox{
+  width: 100%; 
+}
+}
+
+@media screen and (max-width: 700px) {
+  .pull-searchbox {
+      width: 70%; 
+  }
+  .pull-searchbox-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; /* Ensures they remain in one row */
+}
+ 
+}
+
+.tablescroll-pull{
+max-height: calc(100vh - 185px);
+min-height: 430px;
+overflow-y: auto; 
+align-items: center;
+margin: 0.7rem;
+}
+
+
+.pull-table {
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+border: none !important;
+}
+
+.pulltable-head {
+background-color: #005078;
+color: white;
+font-size: 0.98rem;
+font-weight: 600;
+position: sticky;
+top: 0;
+z-index: 2;
+}
+
+.pulltable-head th {
+padding: 0.2rem;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+
+.pulltable-row {
+font-size: 0.75rem;
+border: none !important;
+position: relative;
+}
+
+.pulltable-row td {
+padding: 0.55rem;
+box-sizing: border-box;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+/* position: relative; */
+}
+
+#even-rowpull {
+background-color: #a2c2cc;
+border: none !important;
+}
+
+#odd-rowpull {
+background-color: #ffffff;
+border: none !important;
+}
+
+
+/* Additional fixes for any inherited borders */
+.tablescroll-pull table, 
+.tablescroll-pull tr, 
+.tablescroll-pull th, 
+.tablescroll-pull td {
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+.pagin-right {
+font-size: 1rem;
+}
+.pulltable-pagin {
+display: flex;
+justify-content: space-between;
+padding: 0.1rem;
+
+}
+
+  .addtd-pull {
+    padding: 0;
+  }
+
+  .addbtn-pull {
+   background-color: #005078;
+   color: #ffffff;
+   border: 0;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.95rem;
+    transition: transform 0.3s ease;
+  }
+
+  .addbtn-pull:hover {
+   background-color: #116e9c;
+   color: #ffffff;
+   border: 0;
+    padding: 0.2rem 0.7rem;
+    font-size: 0.95rem;
+    transform: translateY(-3px);
+  }
+  .fa-plus {
+    margin-left: 10px;
+    font-size: 0.9rem;
+  }
+
+   .img-outpull  {
+   display: flex;
+   width: 1.8rem;
+   margin-right: 10px;
+   cursor: pointer;
+  }
+
+
+  @media screen and (min-width: 1900px) and (max-width: 4000px) {
+    .nav-leftpull .h5-leftpull {
+       font-size: 1.27rem;
+    }
+    .nav-middlepull .h4-midpull {
+      font-size: 1.6rem;
+    }
+    .navbar-fullpull {
+      padding: 0.48rem;
+    }
+    .img-outpull {
+      width: 2.2rem;
+    }
+    .pull-searchbox {
+      font-size: 18px;
+    }
+    .pulltable-head {
+      font-size: 20px;
+    }
+    .pulltable-row {
+      font-size: 1rem;
+    }
+    .pulltable-row td {
+      padding: 0.63rem;
+    }
+  }
+
+   @media screen and (min-width: 1600px) and (max-width: 1890px) {
+      .pulltable-row {
+      font-size: 0.9rem;
+    }
+   }

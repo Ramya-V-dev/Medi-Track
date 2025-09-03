@@ -1,0 +1,432 @@
+.four-cal{
+    display: flex;
+    gap: 20px;
+    margin-top: -6px;
+  }
+
+  .label-divcal{
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+  }
+
+  .cal-refresh {
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+  }
+
+   .backbutton-cal {
+    display: flex;
+    height: 2em;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+   }
+   
+   .backbutton-cal > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 18px;
+    transition: all 0.4s ease-in;
+   }
+
+   .backbutton-cal  span{
+    font-size: 1rem;
+        transform: translateX(-5px);
+
+   }
+   
+   .backbutton-cal:hover > svg {
+    font-size: 1rem;
+    transform: translateX(-5px);
+   }
+   
+   .backbutton-cal:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #d1d1d1;
+    transform: translateY(-2px);
+   }
+
+   .dropdowncal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center children horizontally */
+  align-items: center; 
+  background-color: #1857a8;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  height: 2rem;
+}
+
+.dropdowncal .btncal {
+  display: flex;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  color: rgb(250, 246, 246);
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+  position: relative;
+  background-color: #1857a8;
+  /* top: 1px; */
+}
+
+.dropdown-toggle::after {
+  margin-top: 8px;
+}
+
+  .dropdown-menu {
+   min-width: 7rem;
+  }
+   
+  
+  .col-labelcal{
+    color:black;
+    padding: 3px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .col-valuecal{
+    color: rgb(14, 13, 13);
+    display: inline-block;
+    padding: 8px;
+    border: 0;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600; 
+  
+  }
+
+  .calendar-start {
+    margin-top: 35px;
+  }
+
+  .calendar-viewmain {
+    margin-top: 5px;
+    height: 85vh;
+    font-size: 0.65rem;
+  }
+
+  .rbc-toolbar button{
+    font-size: 0.8rem !important; 
+  }
+
+  .rbc-toolbar{
+    margin-bottom: 5px !important;
+  }
+
+  .rbc-month-row {
+    height: 100px;
+    min-height: 100px;
+  }
+
+  .rbc-event {
+  margin-bottom: 1px;
+  padding: 1px 2px;
+}
+
+  .rbc-show-more {
+    font-size: 11px !important;
+  }
+
+  .rbc-date-cell {
+  font-size: 0.7rem;
+ }
+
+   .rbc-month-header {
+    font-size: 1rem;
+    font-weight: 600;
+   }
+
+  
+   @media screen and (min-width: 1900px) and (max-width: 4000px) {
+    .calendar-start {
+      margin-top: 60px;
+    }
+    .rbc-toolbar button{
+    font-size: 1.1rem !important; 
+  }  
+    .rbc-toolbar-label {
+      font-size: 1.2rem !important;
+    }
+    .rbc-month-header {
+    font-size: 1.2rem;
+    font-weight: 600;
+   }
+   .rbc-event {
+    font-size: 1rem;
+    line-height: 1.2;
+    padding: 0.2rem !important;
+    margin-bottom: 1px !important;
+   }
+   .rbc-show-more {
+    font-size: 1rem !important;
+   }
+   .rbc-date-cell {
+    font-size: 1.1rem;
+   }
+   
+  
+      .backbutton-cal {
+    height: 2.7em;
+    width: 90px;
+   }
+
+   .backbutton-cal  span{
+    font-size: 1.3rem;
+        transform: translateX(-5px);
+
+   }
+
+   .col-labelcal {
+    font-size: 1.35rem;
+   }
+   .col-valuecal {
+    font-size: 1.35rem;
+   }
+   .cal-refresh {
+    width: 35px;
+    height: 35px;
+   }
+   .dropdowncal {
+    font-size: 1.2rem;
+    height: 2.5rem;
+   }
+   .dropdowncal .btncal {
+    font-size: 1.1rem;
+   }
+   .com-searchboxcal {
+    font-size: 1.3rem;
+   }
+     .MuiTooltip-tooltip {
+  font-size: 1rem !important;
+  padding: 8px 12px !important;
+} 
+   .nav-leftcal .h5-leftcal {
+    font-size: 1.3rem;
+
+   }
+   .navbar-fullcal {
+    height: 55px !important;
+   }
+    .nav-middlecal .h4-midcal {
+      font-size: 1.7rem;
+    }
+    .img-outcal {
+      width: 50px;
+      height: 40px;
+    }
+   }
+
+
+    @media screen and (min-width: 1600px) and (max-width: 1900px) {
+    .calendar-start {
+      margin-top: 55px;
+    }
+    .rbc-toolbar button{
+    font-size: 1rem !important; 
+  }  
+    .rbc-toolbar-label {
+      font-size: 1.2rem !important;
+    }
+    .rbc-month-header {
+    font-size: 1.2rem;
+    font-weight: 600;
+   }
+   .rbc-event {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+   }
+   .rbc-show-more {
+    font-size: 0.8rem !important;
+   }
+   .rbc-date-cell {
+    font-size: 1rem;
+   }
+      .backbutton-cal {
+    height: 2.2em;
+    width: 90px;
+   }
+
+   .backbutton-cal  span{
+    font-size: 1.1rem;
+        transform: translateX(-5px);
+
+   }
+
+   .col-labelcal {
+    font-size: 1.2rem;
+   }
+   .col-valuecal {
+    font-size: 1.2rem;
+   }
+   .cal-refresh {
+    width: 30px;
+    height: 30px;
+   }
+   .dropdowncal {
+    font-size: 1.1rem;
+    height: 2.3rem;
+   }
+   .dropdowncal .btncal {
+    font-size: 1rem;
+   }
+   .com-searchboxcal {
+    font-size: 1.1rem;
+   }
+     .MuiTooltip-tooltip {
+  font-size: 1rem !important;
+  padding: 7px 11spx !important;
+} 
+   .nav-leftcal .h5-leftcal {
+    font-size: 1.3rem;
+
+   }
+   .navbar-fullcal {
+    height: 53px !important;
+   }
+    .nav-middlecal .h4-midcal {
+      font-size: 1.7rem;
+    }
+    .img-outcal {
+      width: 50px;
+      height: 37px;
+    }
+   }
+
+
+/* .com-searchbox-maincal {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+gap: 1rem; 
+} */
+
+.com-searchboxcal {
+  margin-left: 0.2rem;
+  margin-top: 0rem;
+  margin-right: 1rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  width: 100%;
+  height: 85%;
+  background-color: white;
+}
+
+
+.comsearch-inputcal {
+  margin-left: 0.3rem;
+  display: flex;
+  border: none;
+  outline: none;
+  width: 93%;
+  margin-right: 0.3rem;
+  background: none;
+  margin-top: -3px;
+}
+
+
+.nav-maincal {
+  width: 100%;
+position: fixed; 
+top: 0;
+background-color: #005078; /* Add background color for visibility */
+z-index: 1000; 
+  
+}
+
+
+.navbar-fullcal {
+display: flex;
+background-color: #005078;
+color: white;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+width: 100%;
+box-sizing: border-box;
+height: 38px;
+padding: 0.15rem 0px;
+margin: 0;
+/* font-family: 'Volkhov', serif; */
+
+}
+
+.nav-containercal {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+
+.nav-ulcal {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-middlecal{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.nav-leftcal {
+  display: flex;
+  width: 30%;
+}
+
+.nav-ulcal li {
+  margin-right: 15px; 
+}
+
+.nav-menucal {
+  display: none;
+  cursor: pointer;
+}
+
+ .h5-leftcal {
+  display: flex;
+  margin-left: 0.5rem;
+  text-align: center;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+ }
+
+ .img-outcal  {
+   display: flex;
+   width: 1.9rem;
+   margin-right: 5px;
+   cursor: pointer;
+}
+
+.rbc-toolbar-label {
+  font-size: 16px; /* Reduce overall font size */
+  font-weight: bold;
+}
+
+.rbc-row-segment {
+    padding: 0 1px 2px 1px;
+}
+
+

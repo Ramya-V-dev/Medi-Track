@@ -1,0 +1,1232 @@
+.navbar-nav{
+    margin-left: 28%;
+}
+.navbar{
+   background-color: #005078;
+
+}
+.img-out  {
+   display: flex;
+   width: 2rem;
+   margin-right: 10px;
+   cursor: pointer;
+}
+.nav.link:hover{
+   color: blue;
+}
+.nav-item{
+   font-size: 1.2rem;
+   font-family: 'Volkhov', serif;
+}
+
+.navbar-brand {
+   padding-top: var(--bs-navbar-brand-padding-y);
+   padding-bottom: var(--bs-navbar-brand-padding-y);
+   margin-right: var(--bs-navbar-brand-margin-end);
+   font-size: var(--bs-navbar-brand-font-size);
+   color: var(--bs-navbar-brand-color);
+   text-decoration: none;
+   white-space: nowrap;
+   font-family: 'Volkhov', serif;
+}
+
+
+.collapse{
+   column-gap: 8px;
+}
+
+.home{
+   color: white;
+   margin-bottom: 3px;
+}
+
+
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.popup-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-inner input {
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+
+
+.navbar-nav{
+    margin-left: 30%;
+}
+.navbar{
+   background-color: #005078;
+
+}
+.img-out  {
+   display: flex;
+   width: 1.8rem;
+   margin-right: 10px;
+   cursor: pointer;
+}
+.nav.link:hover{
+   color: blue;
+}
+.nav-item{
+   font-size: 1.2rem;
+   font-family: 'Volkhov', serif;
+}
+
+.navbar-brand {
+   padding-top: var(--bs-navbar-brand-padding-y);
+   padding-bottom: var(--bs-navbar-brand-padding-y);
+   margin-right: var(--bs-navbar-brand-margin-end);
+   font-size: var(--bs-navbar-brand-font-size);
+   color: var(--bs-navbar-brand-color);
+   text-decoration: none;
+   white-space: nowrap;
+   font-family: 'Volkhov', serif;
+}
+
+
+.collapse{
+   column-gap: 8px;
+}
+
+.home{
+   color: white;
+   margin-bottom: 3px;
+}
+
+
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.popup-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-inner input {
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+
+
+
+
+
+    .img-out  {
+      display: flex;
+      /* width: 2rem; */
+      cursor: pointer;
+    }
+
+
+   .nav-main {
+      width: 100%;
+      
+  position: fixed; /* Fix the navbar */
+  top: 0;
+  background-color: #005078; /* Add background color for visibility */
+  z-index: 1000; 
+      
+   }
+
+.navbar-full {
+   display: flex;
+   background-color: #005078;
+   color: white;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+   width: 100%;
+   box-sizing: border-box;
+   /* height: 45%; */
+   padding: 3px 0px;
+   margin: 0;
+}
+
+   .nav-container {
+      display: flex;
+      width: 30%;
+      justify-content: flex-end;
+
+      align-items: center;
+   }
+
+   .nav-ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+   }
+
+   .nav-middle{
+      display: flex;
+      width: 40%;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      
+   }
+
+   .nav-left {
+      display: flex;
+      width: 30%;
+   }
+
+   .nav-ul li {
+      margin-right: 15px; 
+    }
+
+    .nav-menu {
+      display: none;
+      cursor: pointer;
+    }
+
+   
+
+
+    /* @media (max-width: 700px) {
+        .nav-menu {
+         display: block;
+         width: 40px;
+         height: 30px;
+        }
+
+       
+
+        .nav-ul li {
+         margin-right: 8px;
+        }
+
+        .img-out {
+         width: 25px;
+         height: 25px;
+        }
+
+      
+
+        .navbar-full {
+         display: flex;
+         width: 100%;
+        }
+
+       .nav-left {
+         width: 35%;
+       }
+
+       .h5-left {
+         font-size: 15px;
+       }
+
+       .nav-container {
+         display: flex;
+         width: 30%;
+         gap: 10px;
+       }
+
+        .nav-middle {
+           flex-basis: 40%;
+           word-wrap: break-word;
+           width: 40%;
+           justify-content: center;
+           text-align: center;
+        }
+        .h4-mid {
+         font-size: 15px;
+        }
+    } */
+
+    .com-main {
+      margin: 0.5rem;
+      margin-top: 3.8rem; 
+    border: 1px solid ;
+    border-radius: 10px; 
+    border-color: rgb(218, 209, 209); 
+    width: 99%;  
+    height: auto; 
+    background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+    rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+    rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+    rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+    rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+    rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+    rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, 
+    rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,
+    rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, 
+    rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); 
+    background-blend-mode:overlay,overlay,overlay,normal;
+    box-shadow: 0 2px 0 hsla(0,0%,69%,.12);
+    overflow-x: auto;
+    }
+
+    .com-searchbox-main {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; 
+    gap: 1rem; 
+    /* margin-top: 0.6rem; */
+    }
+
+    .com-searchbox {
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+      margin-right: 1rem;
+      border: 1px solid;
+      border-radius: 2rem;
+      padding: 0.3rem;
+      width: 20%;
+      height: 50%;
+    }
+
+    .com-searchbox1 {
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+      margin-right: 1rem;
+      border: 1px solid;
+      border-radius: 2rem;
+      padding: 0.3rem;
+      width: 20%;
+      height: 50%;
+    }
+
+    .comsearch-input {
+      margin-left: 0.3rem;
+      display: flex;
+      border: none;
+      outline: none;
+      width: 93%;
+      margin-right: 0.3rem;
+      background: none;
+    }
+
+    .comsearch-input1 {
+      margin-left: 0.3rem;
+      display: flex;
+      border: none;
+      outline: none;
+      width: 93%;
+      margin-right: 0.3rem;
+      background: none;
+    }
+
+    @media screen and (max-width: 1000px) {
+      .com-searchbox, .com-searchbox1 {
+          width: 45%; 
+      }
+  }
+
+  @media screen and (max-width: 900px) {
+   .com-searchbox, .com-searchbox1 {
+       width: 35%; 
+   }
+   
+}
+
+@media screen and (max-width: 510px) {
+  .com-searchbox, .com-searchbox1 {
+      width: 100%; 
+  }
+}
+  
+  @media screen and (max-width: 700px) {
+      .com-searchbox, .com-searchbox1 {
+          width: 70%; 
+          /* min-width: 150px; */
+      }
+      .com-searchbox-main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap; /* Ensures they remain in one row */
+    }
+     
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  .tablescroll-com{
+    /* max-height: 28rem;  */
+    max-height: calc(100vh - 200px);
+
+  overflow-y: auto; 
+  align-items: center;
+  /* margin-top: 0.7rem;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem; */
+  margin: 0.7rem;
+  }
+
+
+  /* .com-table{
+    width: 100%;
+    border-collapse: separate;
+  border-spacing: 0;
+  border: none !important;
+  }
+
+  .comtable-head{
+    background-color: #005078;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  .comtable-head th{
+    padding: 0.3rem;
+    border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  }
+
+ 
+  .overflow-text-com {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 12rem;
+    cursor: pointer;
+  }
+
+  #even-row {
+    background-color: #a2c2cc;
+    border: none !important;
+  }
+  
+  
+  #odd-row {
+    background-color: #ffffff; 
+    border: none !important;
+  }
+
+  .comtable-row {
+    font-size: 0.75rem;
+    box-sizing: border-box;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  position: relative;
+  }
+
+  .comtable-row td{
+    padding: 0.65rem;
+    border: none !important;
+    }
+
+  
+  .tablescroll-com table, 
+.tablescroll-com tr, 
+.tablescroll-com th, 
+.tablescroll-com td {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+  
+
+  .com-action, .com-view {
+    position: sticky;
+    right: 0;
+    z-index: 1;
+    border: none !important;
+  }
+  
+  .com-action {
+    background-color: #005078;
+  }
+  
+  .com-view {
+    background-color: #005078;
+    color: white;
+  } */
+
+
+  .com-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none !important;
+
+  }
+  
+  .comtable-head {
+    background-color: #005078;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  
+  .comtable-head th {
+    padding: 0.3rem;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  .comtable-row {
+    font-size: 0.75rem;
+    border: none !important;
+    position: relative;
+  }
+
+  .overflow-text-com {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 12rem;
+    cursor: pointer;
+  }
+  
+  .comtable-row td {
+    padding: 0.65rem;
+    box-sizing: border-box;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    /* position: relative; */
+  }
+  
+  #even-row {
+    background-color: #a2c2cc;
+    border: none !important;
+  }
+  
+  #odd-row {
+    background-color: #ffffff;
+    border: none !important;
+  }
+  
+  /* Fix for the view column */
+  .com-action, .com-view {
+    position: sticky;
+    right: 0;
+    z-index: 1;
+    border: none !important;
+  }
+  
+  .com-action {
+    background-color: #005078;
+  }
+  
+  .com-view {
+    background-color: #005078;
+    color: white;
+  }
+  
+  /* Additional fixes for any inherited borders */
+  .tablescroll-com table, 
+  .tablescroll-com tr, 
+  .tablescroll-com th, 
+  .tablescroll-com td {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+
+  @media screen and (min-width: 1900px) and (max-width:4000) {
+    .tablescroll-com{
+      max-height: 28rem; /* Set the height of the scrollable area */
+    overflow-y: auto; /* Enable vertical scrolling */
+    /* overflow-x: auto;  */
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    /* position: relative; */
+    }
+    .com-table {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      border: none !important;
+    }
+    
+    .comtable-head {
+      background-color: #005078;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+    
+    .comtable-head th {
+      padding: 0.3rem;
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    
+    .comtable-row {
+      font-size: 0.75rem;
+      border: none !important;
+      position: relative;
+    }
+  
+    .overflow-text-com {
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      max-width: 12rem;
+      cursor: pointer;
+    }
+    
+    .comtable-row td {
+      padding: 0.65rem;
+      box-sizing: border-box;
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+      /* position: relative; */
+    }
+    
+    #even-row {
+      background-color: #a2c2cc;
+      border: none !important;
+    }
+    
+    #odd-row {
+      background-color: #ffffff;
+      border: none !important;
+    }
+    
+    /* Fix for the view column */
+    .com-action, .com-view {
+      position: sticky;
+      right: 0;
+      z-index: 1;
+      border: none !important;
+    }
+    
+    .com-action {
+      background-color: #005078;
+    }
+    
+    .com-view {
+      background-color: #005078;
+      color: white;
+    }
+    
+    /* Additional fixes for any inherited borders */
+    .tablescroll-com table, 
+    .tablescroll-com tr, 
+    .tablescroll-com th, 
+    .tablescroll-com td {
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+    }
+
+    .com-main {
+      margin: 0.5rem;
+      margin-top: 3.5rem; 
+    border: 1px solid ;
+    border-radius: 10px; 
+    border-color: rgb(218, 209, 209); 
+    width: 99%;  
+    height: auto; 
+    background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+    rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+    rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+    rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+    rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+    rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+    rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, 
+    rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,
+    rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, 
+    rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); 
+    background-blend-mode:overlay,overlay,overlay,normal;
+    box-shadow: 0 2px 0 hsla(0,0%,69%,.12);
+    overflow-x: auto;
+    }
+
+    .com-searchbox-main {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; 
+    gap: 1rem; 
+    }
+
+    .com-searchbox {
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+      margin-right: 1rem;
+      border: 1px solid;
+      border-radius: 2rem;
+      padding: 0.3rem;
+      width: 20%;
+      height: 50%;
+    }
+
+    .com-searchbox1 {
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+      margin-right: 1rem;
+      border: 1px solid;
+      border-radius: 2rem;
+      padding: 0.3rem;
+      width: 20%;
+      height: 50%;
+    }
+
+    .comsearch-input {
+      margin-left: 0.3rem;
+      display: flex;
+      border: none;
+    }
+    .nav-main {
+      width: 100%;
+      
+  position: fixed; /* Fix the navbar */
+  top: 0;
+  background-color: #005078; /* Add background color for visibility */
+  z-index: 1000; 
+      
+   }
+
+.navbar-full {
+   display: flex;
+   background-color: #005078;
+   color: white;
+   align-items: center;
+   text-align: center;
+   justify-content: space-between;
+   width: 100%;
+   box-sizing: border-box;
+   /* height: 45%; */
+   padding: 0.7rem;
+   margin: 0;
+}
+
+   .nav-container {
+      display: flex;
+      width: 30%;
+      justify-content: flex-end;
+
+      align-items: center;
+   }
+
+   .nav-ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+   }
+
+   .nav-middle{
+      display: flex;
+      width: 40%;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      
+   }
+
+   .nav-left {
+      display: flex;
+      width: 30%;
+   }
+
+   .nav-ul li {
+      margin-right: 1rem; 
+    }
+
+    .nav-menu {
+      display: none;
+      cursor: pointer;
+    }
+    .h5-left {
+      font-size: 1.7rem;
+    }
+    .h4-mid {
+      font-size: 1.7rem;
+    }
+  }
+
+
+
+  .pagin-right {
+    font-size: 1.1rem;
+  }
+  .comtable-pagin {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem;
+   }
+
+  /* @media screen and (max-width: 900px) {
+    .comtable-head{
+      background-color: #005078;
+      color: white;
+      font-size: 12px;
+      border-collapse: collapse;
+    }
+    .comtable-row{
+      font-size: 12px;
+    }
+    .com-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    #even-row {
+      background-color: #a2c2cc;
+    }
+    
+    
+    #odd-row {
+      background-color: #ffffff; 
+    }
+    .comtable-row td {
+      padding: 5px;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 1595px) {
+    
+    .comtable-head{
+      background-color: #005078;
+      color: white;
+      font-size: 13px;
+    }
+    .comtable-row{
+      font-size: 12px;
+    }
+    .com-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    #even-row {
+      background-color: #a2c2cc;
+    }
+    
+    
+    #odd-row {
+      background-color: #ffffff; 
+    }
+    .comtable-row td {
+      padding: 5px;
+    }
+
+    .com-table {
+      border-collapse: collapse;
+    }
+    
+  }
+
+  @media screen and (min-width: 1600px) {
+    
+    .comtable-head{
+      background-color: #005078;
+      color: white;
+      font-size: 18px;
+    }
+    .comtable-row{
+      font-size: 18px;
+    }
+    .com-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    #even-row {
+      background-color: #a2c2cc;
+    }
+    
+    
+    #odd-row {
+      background-color: #ffffff; 
+    }
+    .comtable-row td {
+      padding: 15px;
+    }
+    
+    
+  }
+
+
+
+  @media screen and (max-width: 780px) {
+    .comtable-head{
+      background-color: #005078;
+      color: white;
+      font-size: 11px;
+    }
+
+    .comtable-row {
+      font-size: 10px;
+    }
+    .com-table {
+      width: 100%;
+      border-collapse: collapse;
+
+    }
+    
+  }
+   
+
+  @media screen and (max-width: 630px) {
+    .comtable-head{
+      background-color: #005078;
+      color: white;
+      font-size: 12px;
+    }
+
+    .comtable-row {
+      font-size: 11px;
+    }
+    .com-table {
+      width: 50%;
+      border-collapse: collapse;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .comtable-head{
+      background-color: #005078;
+      color: white;
+      font-size: 12px;
+    }
+
+    .comtable-row {
+      font-size: 11px;
+    }
+    .com-table {
+      width: 50%;
+    }
+    
+    
+  } */
+
+
+
+
+  .home-page {
+    margin-top: 60px;
+
+  }
+
+  .home-expapp {
+   width: 50%;
+  }
+
+  .home-expapp1 {
+   width: 50%;
+  }
+
+  .home-expappBI {
+   width: 50%;
+
+  }
+  .home-expappBI1 {
+   width: 50%;
+  }
+
+  .home-expappBI2 {
+   width: 50%;
+  }
+
+  .home-expappBI3 {
+   width: 50%;
+  }
+
+  .home-perdiv {
+    padding: 1.5rem;
+    margin-left: 8rem;
+    margin-right: 4rem;
+    
+  }
+
+  .home-perdiv1 {
+    padding: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 8rem;
+  }
+
+  .home-perdivBI {
+    padding: 1.5rem;
+    /* margin-left: 4rem; */
+    /* margin-right: 4rem; */
+    
+  }
+
+  .Home-head {
+   font-size: 25px;
+   display: flex;
+   margin-left: 1rem;
+  }
+
+  .Home-headBI {
+   font-size: 25px;
+   display: flex;
+   margin-left: 1rem;
+   width: 100%;
+  }
+
+  .home-imgBI {
+    width: 98%;
+    height: 45%;
+  }
+
+  .home-img {
+    width: 90%;
+    height: 40%;
+  }
+
+  .home-paperhead {
+    font-weight: 600;
+  }
+
+  .home-paperheadBI {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+   .home-paperviewBI{
+      font-size: 0.9rem;
+    }
+
+    .paraBI p{
+      margin-bottom: 0;
+    }
+
+  @media screen and (min-width: 1900px) and (max-width:4000px) {
+     .home-page {
+    margin-top: 60px;
+
+  }
+
+  .home-expapp {
+   width: 50%;
+  }
+
+  .home-expapp1 {
+   width: 50%;
+  }
+
+  .home-perdiv {
+    padding: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+
+  }
+
+  .home-perdiv1 {
+    padding: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 10rem;
+  }
+
+  .Home-head {
+   font-size: 25px;
+   display: flex;
+   margin-left: 1rem;
+  }
+
+  .home-paperhead{
+      font-size: 1.8rem;
+    }
+    .home-papercontent{
+      font-size: 1.3rem;
+    }
+    .home-paperview{
+      font-size: 1.1rem;
+    }
+
+  .home-img {
+    width: 80%;
+    height: 40%;
+  }
+
+  .home-paperhead {
+    font-weight: 600;
+  }
+
+  .home-paperheadBI {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .home-papercontentBI{
+      font-size: 1.3rem;
+    }
+    .home-paperviewBI{
+      font-size: 1.1rem;
+    }
+  }
+
+  @media screen and (min-width: 1600px) and (max-width:1890px) {
+     .home-page {
+    margin-top: 60px;
+
+  }
+
+  .home-expapp {
+   width: 50%;
+  }
+
+  .home-expapp1 {
+   width: 50%;
+  }
+
+  .home-perdiv {
+    padding: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+  }
+
+  .home-perdiv1 {
+    padding: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 10rem;
+  }
+
+  .Home-head {
+   font-size: 25px;
+   display: flex;
+   margin-left: 1rem;
+  }
+
+  .home-paperhead{
+      font-size: 1.6rem;
+    }
+    .home-papercontent{
+      font-size: 1.2rem;
+    }
+    .home-paperview{
+      font-size: 1rem;
+    }
+
+  .home-img {
+    width: 80%;
+    height: 40%;
+  }
+
+  .home-paperhead {
+    font-weight: 600;
+  }
+
+  .home-paperheadBI {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .home-papercontentBI{
+      font-size: 1.2rem;
+    }
+    .home-paperviewBI{
+      font-size: 1rem;
+    }
+  }
+/* 
+  
+  @media screen and (max-width: 915px) {
+    .home-paperhead{
+      font-size: 15px;
+    }
+    .home-papercontent{
+      font-size: 14px;
+    }
+    .home-paperview{
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .home-paperhead{
+      font-size: 15px;
+    }
+    .home-papercontent{
+      font-size: 12px;
+    }
+    .home-paperview{
+      font-size: 12px;
+    }
+  } */
+
+   
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+   
+    
+  

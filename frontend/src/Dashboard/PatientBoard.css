@@ -1,0 +1,494 @@
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center children horizontally */
+  align-items: center; 
+}
+
+.dropdown .btn1 {
+  display: flex;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  font-size: 13px;
+  color: rgb(250, 246, 246);
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+  position: relative;
+  background-color: #005078;
+  /* top: 1px; */
+  margin-top: 2px;
+}
+
+.dropdown-toggle::after {
+  margin-top: 8px;
+}
+
+.dropdpwum-menu {
+  position: absolute;
+  inset: 10px auto auto 10px;
+  z-index: 9999;
+}
+
+
+/*Edit Btn */
+.editBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(93, 93, 116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.123);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.editBtn::before {
+  content: "";
+  width: 200%;
+  height: 200%;
+  background-color: rgb(102, 102, 141);
+  position: absolute;
+  z-index: 1;
+  transform: scale(0);
+  transition: all 0.3s;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.editBtn:hover::before {
+  transform: scale(1);
+}
+
+.editBtn:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+.editBtn svg {
+  height: 17px;
+  fill: white;
+  z-index: 3;
+  transition: all 0.2s;
+  transform-origin: bottom;
+}
+
+.editBtn:hover svg {
+  transform: rotate(-15deg) translateX(5px);
+}
+
+.editBtn::after {
+  content: "";
+  width: 15px;
+  height: 1.5px;
+  position: absolute;
+  bottom: 9px;
+  left: 0px;
+  background-color: white;
+  border-radius: 2px;
+  z-index: 2;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-out;
+}
+
+.editBtn:hover::after {
+  transform: scaleX(1);
+  left: 0px;
+  transform-origin: right;
+}
+
+
+
+.nav-maincom {
+  width: 100%;
+  
+position: fixed; /* Fix the navbar */
+top: 0;
+background-color: #005078; /* Add background color for visibility */
+z-index: 1000; 
+  
+}
+
+.comnavbar-full {
+display: flex;
+background-color: #005078;
+color: white;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+width: 100%;
+box-sizing: border-box;
+/* height: 45%; */
+padding: 0.3rem 0px;
+font-size: 12px;
+margin: 0;
+/* font-family: 'Volkhov', serif; */
+
+}
+
+.nav-containercom {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+
+.nav-ulcom {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-middlecom{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
+
+ .nav-middlecom .h4-midcom {
+  font-size: 20px;
+ }
+
+.nav-leftcom {
+  display: flex;
+  width: 30%;
+}
+
+.nav-leftcom .h5-leftcom {
+  font-size: 16px;
+}
+
+.nav-ulcom li {
+  margin-right: 15px; 
+}
+
+
+.com-main {
+  margin: 0.5rem;
+  margin-top: 3.8rem; 
+border: 1px solid ;
+border-radius: 10px; 
+border-color: rgb(218, 209, 209); 
+width: 99%;  
+height: auto; 
+background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,
+rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, 
+rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,
+rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, 
+rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,
+rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, 
+rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); 
+background-blend-mode:overlay,overlay,overlay,normal;
+box-shadow: 0 2px 0 hsla(0,0%,69%,.12);
+overflow-x: auto;
+}
+
+.com-searchbox-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+gap: 1rem; 
+}
+
+.com-searchbox {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  width: 22%;
+  height: 50%;
+  background-color: white;
+  font-size: 15px;
+}
+
+.com-searchbox1 {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  width:22%;
+  height: 50%;
+  background-color: white;
+  font-size: 15px;
+}
+
+.comsearch-input {
+  margin-left: 0.3rem;
+  display: flex;
+  border: none;
+  outline: none;
+  width: 93%;
+  margin-right: 0.3rem;
+  background: none;
+}
+
+.comsearch-input1 {
+  margin-left: 0.3rem;
+  display: flex;
+  border: none;
+  outline: none;
+  width: 93%;
+  margin-right: 0.3rem;
+  background: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .com-searchbox, .com-searchbox1 {
+      width: 45%; 
+  }
+}
+
+@media screen and (max-width: 900px) {
+.com-searchbox, .com-searchbox1 {
+   width: 35%; 
+}
+}
+
+@media screen and (max-width: 510px) {
+.com-searchbox, .com-searchbox1 {
+  width: 100%; 
+}
+}
+
+@media screen and (max-width: 700px) {
+  .com-searchbox, .com-searchbox1 {
+      width: 70%; 
+      /* min-width: 150px; */
+  }
+  .com-searchbox-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; /* Ensures they remain in one row */
+}
+ 
+}
+
+
+.tablescroll-com{
+max-height: calc(100vh - 170px);
+min-height: 410px;
+overflow-y: auto; 
+align-items: center;
+margin: 0.7rem;
+margin-bottom: 0.5rem;
+}
+
+
+.com-table {
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+border: none !important;
+
+}
+
+.comtable-head {
+background-color: #005078;
+color: white;
+font-size: 0.96rem;
+font-weight: 600;
+position: sticky;
+top: 0;
+z-index: 2;
+}
+
+.comtable-head th {
+padding: 0.3rem;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+
+.comtable-row {
+font-size: 0.75rem;
+border: none !important;
+position: relative;
+}
+
+.overflow-text-com {
+white-space: nowrap; 
+overflow: hidden; 
+text-overflow: ellipsis; 
+max-width: 12rem;
+cursor: pointer;
+}
+
+.comtable-row td {
+padding: 0.5rem;
+box-sizing: border-box;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+/* position: relative; */
+}
+
+#even-row {
+background-color: #a2c2cc;
+border: none !important;
+}
+
+#odd-row {
+background-color: #ffffff;
+border: none !important;
+}
+
+/* Fix for the view column */
+.com-action, .com-view {
+position: sticky;
+right: 0;
+z-index: 1;
+border: none !important;
+}
+
+.com-action {
+background-color: #005078;
+}
+
+.com-view {
+background-color: #005078;
+color: white;
+}
+
+/* Additional fixes for any inherited borders */
+.tablescroll-com table, 
+.tablescroll-com tr, 
+.tablescroll-com th, 
+.tablescroll-com td {
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+
+.pagin-rightcom {
+font-size: 1rem;
+}
+.comtable-pagin {
+display: flex;
+justify-content: space-between;
+padding: 0.1rem;
+}
+
+
+.img-outcom  {
+   display: flex;
+   width: 1.8rem;
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+.com-img {
+width: 80%;
+height: 40%;
+}
+
+  .com-navbottom {
+      margin-top: 60px;
+    }
+
+  @media screen  and (min-width: 1900px) and (max-width: 4000px){
+    .nav-leftcom .h5-leftcom {
+      font-size: 1.27rem;
+    }
+    .nav-middlecom .h4-midcom {
+      font-size: 1.6rem;
+    }
+    .comnavbar-full {
+      padding: 0.45rem;
+    }
+    .img-outcom {
+      width: 2.1rem;
+      margin-top: 2px;
+    }
+    .com-navbottom {
+      margin-top: 70px;
+    }
+    .com-searchbox {
+      font-size: 1.2rem;
+    }
+    .com-searchbox1 {
+      font-size: 1.2rem;
+    }
+    
+    .comtable-head {
+      font-size: 1.2rem;
+    }
+    .dropdown .btn1 {
+      font-size: 1rem;
+    }
+    .comtable-row {
+      font-size: 1rem;
+    }
+    .comtable-row td {
+      padding: 0.7rem;
+    }
+    .pagin-rightcom {
+      font-size: 1.15rem;
+     }
+  }
+
+  @media screen  and (min-width: 1750px) and (max-width: 1890px){
+    .nav-leftcom .h5-leftcom {
+      font-size: 1.05rem;
+    }
+    .nav-middlecom .h4-midcom {
+      font-size: 1.3rem;
+    }
+    .comnavbar-full {
+      padding: 0.45rem;
+    }
+    .img-outcom {
+      width: 1.9rem;
+      margin-top: 2px;
+    }
+    .com-searchbox {
+      font-size: 1.05rem;
+    }
+    .com-searchbox1 {
+      font-size: 1.05rem;
+    }
+    .dropdown .btn1 {
+      font-size: 0.75rem;
+    }
+    .comtable-head {
+      font-size: 1rem;
+    }
+    .dropdown .btn1 {
+      font-size: 0.9rem;
+    }
+    .comtable-row {
+      font-size: 0.9rem;
+    }
+    .comtable-row td {
+      padding: 0.55rem;
+    }
+    .pagin-rightcom {
+      font-size: 1.15rem;
+     }
+  }
+
+  @media screen  and (min-width: 1600px) and (max-width: 1750px){
+     .comtable-row {
+      font-size: 0.85rem;
+     }
+  }

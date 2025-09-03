@@ -1,0 +1,1514 @@
+/* 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+ 
+
+ 
+.home-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+ 
+.home-button:hover {
+    background-color: #2980b9;
+}
+ 
+.container1 {
+    margin-top: 60px;
+}
+
+
+.row {
+    gap: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-left: 1rem;
+}
+ 
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.151);
+    padding:10px 20px;
+    width: 22%;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition: transform 0.3s;
+}
+
+.card1 {
+    border: 1px solid;
+    border-color: rgb(214, 211, 211);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.151);
+    padding:37px 20px;
+    font-size: 20px;
+    height: 88%;
+    width: 90%;
+    margin: 8px;
+    transition: transform 0.3s;
+}
+
+.card1_mq {
+  width: 18%;
+  margin-right: 2%;
+   margin-top: 3.2%;
+}
+
+@media screen and (min-width:1800px) {
+  .card1_mq {
+    width: 18%;
+    margin-right: 2%;
+     margin-top: 2.2%;
+  }
+
+  .card1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.151);
+    padding:37px 20px;
+    font-size: 20px;
+    width: 90%;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+}
+
+@media screen and (min-width: 1900px) and (max-width:4000px) {
+
+  .row {
+    gap: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-left: 1rem;
+}
+ 
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.151);
+    padding:10px 20px;
+    width: 22%;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    transition: transform 0.3s;
+}
+  .card1_mq {
+    width: 18%;
+    margin-right: 2%;
+     margin-top: 1.9%;
+
+  }
+  .card1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.26);
+    padding:37px 20px;
+    font-size: 20px;
+    width: 90%;
+    margin: 11px;
+    transition: transform 0.3s;
+}
+}
+
+.red {
+  color: #B22222;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+
+ 
+.card h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    gap: 5px;
+}
+ 
+.card p {
+    font-size: 0.8em;
+    display: flex;
+}
+ 
+.card:hover {
+    transform: translateY(-10px);
+}
+ 
+.tables {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+ 
+.dashboardtable {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(10, 10, 10, 0.267);
+    padding: 20px;
+    width: 70%;
+    height: auto;
+    overflow-x: auto;
+    
+}
+
+.dashboardtable1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(7, 7, 7, 0.233);
+    padding: 20px;
+    width: 30%;
+    height: auto;
+
+}
+.tablesnap{
+    padding: 10px;
+    width: 100%;
+}
+
+.nonpack-thead{
+    background-color: #005078;
+    color: white;
+   cursor: pointer;
+   z-index: 1;
+    top: 0;
+}
+
+.rowsnap th{
+    padding: 5px;
+text-align: center;
+white-space: nowrap;
+font-size: 15px;
+}
+
+.rowsnap td{
+    padding: 4px;
+text-align: center;
+border-bottom: 1px solid #ddd;
+white-space: nowrap;
+font-size: 12px;
+}
+
+.snapwrap{
+    white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-height: 100px; 
+        overflow-y: auto;
+        text-align: center;
+        padding: 5px;
+        max-width: 250px;
+        
+  }
+  
+  .snapwrap1{
+    white-space: normal;
+        word-wrap: break-word;
+        max-height: 100px; 
+        overflow-y: auto;
+        text-align: center;
+        padding: 5px;
+        max-width: 250px;
+  
+  }
+
+
+.tablesnap-nonpack{
+    width: 100%;
+}
+ 
+
+
+.nonpack-heading{
+    background-color: #005078;
+    color: white;
+   cursor: pointer;
+   position: sticky;
+   z-index: 1;
+    top: 0;
+}
+
+.rowsnap-nonpack th{
+    padding: 5px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+
+.rowsnap-nonpack td {
+
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+
+.tablesnap tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+    .footno{
+        display: flex;
+        width: 100%;
+        margin-top: 10px;
+        }
+        .paginno{
+        width: 75%;
+        }
+        .Rangeno{
+        text-align: end;
+        width: 25%;
+        }
+
+
+
+        
+            .searchtextsnap{
+            border: 1.5px solid;
+            border-radius: 40px;
+            padding: 4px;
+            font-size: 16px;
+            padding-left: 1rem;
+            outline: none;
+            width: 13.5rem;
+            }
+            .searchtextsnap::placeholder {
+            animation: scrollText 5s linear infinite;
+            white-space: nowrap;
+            overflow: hidden;
+            display: block;
+            height: 1.2em; 
+            }
+            
+          
+            
+            
+            .searchbox-datesnap{
+                margin-left: 14rem;
+                margin-top: 5px;
+            width: 30%;
+            }
+
+            .fixed-textarea-snap {
+                width: 100px; 
+                height: 45px; 
+                resize: none; 
+                border: 1px solid;
+              }
+
+           .backsnap{
+            border: 0;
+            border-radius: 5px;
+            padding: 3px;
+            background-color: white;
+            padding: 5px;
+           }
+
+
+           .table-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(10, 10, 10, 0.267);
+            padding: 14px;
+        }
+        
+        .patient-edit {
+            width: 95%;
+            margin: 0 auto;
+        }
+
+
+        .dashboard-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        .dashboard-table th,
+        .dashboard-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        
+        .dashboard-table th {
+            background-color: #005078;
+            color: white;
+        }
+
+        .col-snap{
+            width: 12%;
+        }
+
+        .col-snapnote{
+            width: 25%;
+            align-items: center;
+        }
+
+        .col-snapaction{
+            width: 10%;
+            align-items: center;
+        }
+        
+        .table-heading {
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: auto;
+        }
+
+
+        .overflow-textsnap {
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+            color: blue;
+            cursor: pointer;
+          }
+
+          .review1{
+            display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 7rem;
+   
+          }
+
+          .reviewed{
+            display: inline-block;
+    border: 1px solid #ccc;
+    padding: 3px ;
+    border-radius: 5px;
+    font-size: 0.8em;
+    background-color: #f9f9f9;
+    font-weight: bold;
+          }
+
+   
+
+.clr-btn{
+   background-color: white;
+   border: 1px solid;
+   padding: 3px;
+   border-radius: 5px;
+}
+
+.savenote-btn{
+    background-color: rgb(46, 170, 94);
+   border: 0;
+   padding: 5px;
+   border-radius: 10px;
+   border-color: #45a049;
+   color: white;
+   margin-left: 5px;
+
+}
+
+.savenote-btn:hover{
+    background-color: #45a049;
+}
+
+.closenote-btn{
+    background-color: rgb(231, 82, 62);
+   border: 0;
+   padding: 5px;
+   border-radius: 10px;
+   border-color: #cf3420;
+   color: white;
+   margin-left: 5px;
+}
+
+.closenote-btn:hover{
+    background-color: #da190b;
+}
+
+
+.snap-pinicon{
+    transform: rotate(35deg);
+    margin-right: 10px;
+}
+
+.paper-pin{
+    width: 100%;
+    display: flex;
+}
+
+.pin-head{
+    width: 15%;
+}
+
+.notes-pinsnap{
+    width: 80%;
+    font-size: 13px;
+    font-family: 'Arial', sans-serif;
+    padding: 4px;
+}
+
+.deleted-row1{
+    text-decoration: line-through;
+    color: red;
+  opacity: 0.6;
+   }
+
+   .deleted-row1 input[type="checkbox"] {
+    opacity: 0.5; 
+  }
+
+
+  .error-text{
+    color: red;
+  }
+
+  .slot-input{
+    text-transform: uppercase;
+  }
+
+
+  .pdfdown{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+ }
+
+
+ .pdfdown.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+    .pdfdown1{
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    margin-left: 17rem;
+    margin-bottom: 3px;
+    }
+
+    .pdfdown1.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+
+      .react-datepicker-popper {
+        z-index: 9999 !important;
+      }
+
+     
+
+      .editBtn1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(93, 93, 116);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.123);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.3s;
+      }
+      
+      .editBtn1::before {
+        content: "";
+        width: 200%;
+        height: 200%;
+        background-color: rgb(102, 102, 141);
+        position: absolute;
+        z-index: 999;
+        transform: scale(0);
+        transition: all 0.3s;
+        border-radius: 50%;
+        filter: blur(10px);
+      }
+      
+      .editBtn1:hover::before {
+        transform: scale(1);
+      }
+      
+      .editBtn1:hover {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.336);
+      }
+      
+      .editBtn1 svg {
+        height: 17px;
+        fill: white;
+        z-index: 999;
+        transition: all 0.2s;
+        transform-origin: bottom;
+      }
+      
+      .editBtn1:hover svg {
+        transform: rotate(-15deg) translateX(5px);
+      }
+      
+      .editBtn1::after {
+        content: "";
+        width: 15px;
+        height: 1.5px;
+        position: absolute;
+        bottom: 9px;
+        left: 0px;
+        background-color: white;
+        border-radius: 2px;
+        z-index: 999;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.5s ease-out;
+      }
+      
+      .editBtn1:hover::after {
+        transform: scaleX(1);
+        left: 0px;
+        transform-origin: right;
+      }
+
+      .editBtn1:disabled {
+        cursor: not-allowed;
+        background-color: #d3d3d3;
+      } */
+
+
+    .nav-mainsnap {
+  width: 100%;
+  
+position: fixed; /* Fix the navbar */
+top: 0;
+background-color: #005078; /* Add background color for visibility */
+z-index: 1000; 
+  
+}
+
+.snapnavbar-full {
+display: flex;
+background-color: #005078;
+color: white;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+width: 100%;
+box-sizing: border-box;
+/* height: 45%; */
+padding: 0.3rem 0px;
+font-size: 12px;
+margin: 0;
+/* font-family: 'Volkhov', serif; */
+
+}
+
+.nav-containersnap {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+   margin-right: 0.5rem;
+  align-items: center;
+}
+
+.nav-ulsnap {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-middlesnap{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
+
+ .nav-middlesnap .h4-midsnap {
+  font-size: 20px;
+ }
+
+.nav-leftsnap {
+  display: flex;
+  width: 30%;
+}
+
+.nav-leftsnap .h5-leftsnap {
+  font-size: 16px;
+}
+
+.nav-ulcsnap li {
+  margin-right: 15px; 
+}
+
+  .snap-gobtn {
+    font-size: 1rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 8px;
+  }
+  .navbottom-snap {
+    margin-top: 50px;
+  }
+
+   /*backbtncss*/
+  .backbutton-snap {
+    display: flex;
+    height: 2.2em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+    margin-bottom: 8px;
+   }
+   
+   .backbutton-snap > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   .backbutton-snap:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .backbutton-snap:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #d1d1d1;
+    transform: translateY(-2px);
+   }
+
+   .snap-card-rows1 {
+    display: flex;
+    gap: 1.6rem;
+   }
+   .snap-card-rows2 {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 1rem;
+   }
+   
+
+   .snap-cards {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(8, 8, 8, 0.151);
+      /* padding: 1rem 1.2rem; */
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+      padding-bottom: 1.5rem;
+      padding-top: 0.5rem;
+      /* width: 22.5%; */
+      width: 22.5%;
+      border: 1px solid;
+      border-color: rgb(206, 200, 200);
+      transition: transform 0.3s;
+   }
+   .snap-cards:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+   }
+   .snapcard-pathead{
+    display: flex;
+    gap: 4px;
+   }
+   .snapcard-pathead h6{
+      color: black;
+      font-size: 1.02rem;
+      margin-bottom: 5px;
+   }
+   .snapcard-pathead i{
+    margin-top: 2px;
+   }
+   .snapcard-patname {
+    display: flex;
+    font-size: 0.85rem;
+    color: black;
+   }
+
+   
+   .snap-card-right {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(8, 8, 8, 0.151);
+      padding-left: 1.3rem;
+      padding-right: 1.5rem;
+      padding-bottom: 3rem;
+      padding-top: 0.8rem;
+      width: 81%;
+      border: 1px solid;
+      border-color: rgb(206, 200, 200);
+      transition: transform 0.3s;
+   }
+   .snap-card-right:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+   }
+   .snap-card-right .snapcards-rightp{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 0px;
+   }
+   .snap-card-right .snapcards-rights {
+    font-size: 1.6rem;
+    font-weight: bold;
+   }
+
+   .patdet-card {
+    margin-top: 0.8%;
+    background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(8, 8, 8, 0.411);
+      padding: 0.7rem;
+      width: 95%;
+      margin-left: 2rem;
+   }
+   .patdet-card h6{
+      font-weight: bold;
+      font-size: 1.1rem;
+   }
+  .snap-table {
+    border: 1px solid;
+    border-color: rgb(180, 177, 177);
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+  }
+  .snap-table th, .snap-table td {
+    border: 1px solid;
+    border-color: rgb(180, 177, 177);
+  }
+  .snaptable-head {
+    background-color: #005078;
+    color: white;
+    font-size: 0.9rem;
+  }
+  .snaptable-head th{
+    padding: 0.4rem;
+  }
+
+  .snaptable-row {
+    font-size: 0.85rem;
+  }
+  .snaptable-row td{
+    padding: 0.4rem;
+    color: black;
+  }
+  .snaptable-row .snaptable-actionth {
+  width: 10% ;
+  min-width: 100px;
+  text-align: center;
+}
+.notes-col-snap {
+  width: 20%;
+}
+  .overflow-text-snap {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    max-width: 200px;
+    cursor: pointer;
+   }
+/*Edit Btn */
+.editBtn-snap {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(93, 93, 116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.123);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.editBtn-snap::before {
+  content: "";
+  width: 200%;
+  height: 200%;
+  background-color: rgb(102, 102, 141);
+  position: absolute;
+  z-index: 1;
+  transform: scale(0);
+  transition: all 0.3s;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.editBtn-snap:hover::before {
+  transform: scale(1);
+}
+
+.editBtn-snap:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+.editBtn-snap svg {
+  height: 17px;
+  fill: white;
+  z-index: 3;
+  transition: all 0.2s;
+  transform-origin: bottom;
+}
+
+.editBtn-snap:hover svg {
+  transform: rotate(-15deg) translateX(5px);
+}
+
+.editBtn-snap::after {
+  content: "";
+  width: 15px;
+  height: 1.5px;
+  position: absolute;
+  bottom: 9px;
+  left: 0px;
+  background-color: white;
+  border-radius: 2px;
+  z-index: 2;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-out;
+}
+.snap-calendar {
+  width: 120px;
+}
+
+.editBtn-snap:hover::after {
+  transform: scaleX(1);
+  left: 0px;
+  transform-origin: right;
+}
+.snap-notepin {
+  display: flex;
+  background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(8, 8, 8, 0.322);
+      margin-top: 10px;
+      width: 98%;
+      margin-left: 1rem;
+      padding: 0.3rem;
+}
+   .snap-pinicon {
+    transform: rotate(35deg);
+   }
+   .notes-pinsnap {
+    color: black;
+    font-size: 0.8rem;
+   }
+   .snap-pack-nonpack {
+    display: flex;
+    width: 98%;
+    gap: 10px;
+    margin-left: 1.5rem;
+    margin-top: 10px;
+    margin-right: 3rem;
+   }
+   
+   .snap-reconcile {
+     background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(8, 8, 8, 0.411);
+      width: 66%;
+      padding: 0.5rem;
+   }
+   .snapreconcile-head {
+    display: flex;
+    font-size: 1.3rem;
+    width: 44%;
+    align-items: center;
+    justify-content: center;
+   }
+   .error-reconcile {
+        width: 30%;
+    display: flex;
+   }
+   .error-reconcile p{
+    color: red;
+    margin-bottom: 0 !important;
+    font-size: 0.95rem;
+   }
+
+   .snap-nonpack {
+     background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(8, 8, 8, 0.411);
+      width: 32%;
+
+   }
+   .snap-reviewed {
+    width: 55%;
+    display: flex;
+    gap: 10px;
+    margin-top: 0.2rem;
+    align-items: center;
+    justify-content: center;
+
+   }
+   .snap-review-details label{
+      font-weight: bold;
+      font-size: 1rem;
+   }
+   .snap-review-details span{
+    display: inline-block;
+    border: 1px solid;
+    border-color: rgb(173, 171, 171);
+    border-radius: 5px;
+    background-color: rgb(230, 225, 225);
+    padding: 0.1rem;
+      font-weight: bold;
+      font-size: 0.75rem;
+      font-family: Arial, sans-serif
+   }
+   .snap-edit-pdfbtn {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+   }
+   /*Edit Btn */
+.editBtn-reconcile {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(93, 93, 116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.123);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.editBtn-reconcile::before {
+  content: "";
+  width: 200%;
+  height: 200%;
+  background-color: rgb(102, 102, 141);
+  position: absolute;
+  z-index: 1;
+  transform: scale(0);
+  transition: all 0.3s;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.editBtn-reconcile:hover::before {
+  transform: scale(1);
+}
+
+.editBtn-reconcile:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+.editBtn-reconcile svg {
+  height: 17px;
+  fill: white;
+  z-index: 3;
+  transition: all 0.2s;
+  transform-origin: bottom;
+}
+
+.editBtn-reconcile:hover svg {
+  transform: rotate(-15deg) translateX(5px);
+}
+
+.editBtn-reconcile::after {
+  content: "";
+  width: 15px;
+  height: 1.5px;
+  position: absolute;
+  bottom: 9px;
+  left: 0px;
+  background-color: white;
+  border-radius: 2px;
+  z-index: 2;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-out;
+}
+.editBtn-reconcile:hover::after {
+  transform: scaleX(1);
+  left: 0px;
+  transform-origin: right;
+}
+.pdfdown{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+ }
+
+
+ .pdfdown.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .tablescroll-snapreconcile{
+overflow-y: auto; 
+align-items: center;
+margin: 0.5rem;
+}
+
+
+.snapreconcile-table {
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+border: none !important;
+
+
+}
+
+.snapreconciletable-head {
+background-color: #005078;
+color: white;
+font-size: 0.98rem;
+font-weight: 600;
+/* position: sticky;   */
+top: 0;
+z-index: 2;
+}
+
+.snapreconciletable-head th {
+padding: 0.3rem;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+
+.snapreconciletable-row {
+font-size: 0.75rem;
+border: none !important;
+/* position: relative; */
+}
+
+
+
+.snapreconciletable-row td {
+  text-align: center;
+padding: 0.2rem;
+white-space: nowrap;
+box-sizing: border-box;
+border-bottom: 1px solid;
+border-color: rgb(204, 202, 202);
+color: black;
+}
+
+  .snapwrap_drug{
+    white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-height: 100px; 
+        overflow-y: auto;
+        text-align: center;
+        padding: 5px;
+        max-width: 300px;
+        
+  }
+  .snapwrap1_drug{
+    white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-height: 100px; 
+        overflow-y: auto;
+        text-align: center;
+        padding: 5px;
+        max-width: 300px;
+        
+  }
+
+  .snapwrap{
+    white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-height: 100px; 
+        overflow-y: auto;
+        text-align: center;
+        padding: 5px;
+        max-width: 300px;
+        
+  }
+  .snapwrap1{
+    white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-height: 100px; 
+        overflow-y: auto;
+        text-align: center;
+        padding: 5px;
+        max-width: 300px;
+        
+  }
+  .snaphead-nonpack {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: black;
+    margin-bottom: 3px;
+   }
+
+    .pdfdown1{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+ }
+    .pdfdown1.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .tablescroll-snapnonpack{
+overflow-y: auto; 
+align-items: center;
+margin: 0.5rem;
+}
+
+
+.snapnonpack-table {
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+border: none !important;
+
+
+}
+
+.snapnonpacktable-head {
+background-color: #005078;
+color: white;
+font-size: 0.98rem;
+font-weight: 600;
+position: sticky;
+top: 0;
+z-index: 2;
+}
+
+.snapnonpacktable-head th {
+padding: 0.3rem;
+border: none !important;
+outline: none !important;
+box-shadow: none !important;
+}
+
+.snapnonpacktable-row {
+font-size: 0.75rem;
+border: none !important;
+/* position: relative; */
+}
+
+
+
+.snapnonpacktable-row td {
+padding: 0.5rem;
+white-space: nowrap;
+box-sizing: border-box;
+border-bottom: 1px solid;
+border-color: rgb(204, 202, 202);
+color: black;
+} 
+
+   .snap-cards-main {
+      /* margin-left: 2rem; */
+      display: flex;
+      width: 100%;
+     }
+
+   @media screen and (min-width: 1900px) and (max-width:4000px) {
+     .nav-leftsnap .h5-leftsnap {
+      font-size: 1.25rem;
+     }
+     .nav-middlesnap .h4-midsnap {
+      font-size: 1.6rem;
+     }
+     .snap-gobtn {
+      font-size: 1.1rem;
+     }
+     .backbutton-snap {
+        height: 2.5rem;
+     }
+     .backbutton-snap  span {
+      font-size: 1.3rem;
+     }
+     .snapcard-pathead i {
+      font-size: 1.4rem;
+     }
+     .snapcard-pathead h6 {
+      font-size: 1.2rem;
+     }
+     .snapcard-patname {
+      font-size: 1.1rem;
+     }
+     .snap-cards {
+      width: 23%;
+     }
+     .snap-card-right .snapcards-rightp {
+      font-size: 1.5rem;
+     }
+     .patdet-card h6 {
+      font-size: 1.4rem;
+     }
+     .snaptable-head {
+      font-size: 1.1rem;
+     }
+     .snaptable-row {
+      font-size: 1.05rem;
+     }
+     .editBtn-snap {
+      width: 38px;
+      height: 38px;
+    }
+    .editBtn-snap svg {
+      height: 18px;
+    }
+     .snap-pushi-h7 {
+      font-size: 1.15rem;
+     }
+     .notes-pinsnap {
+      font-size: 1rem;
+      color: black;
+     }
+     .snapreconcile-head {
+      font-size: 1.6rem;
+      color: black;
+     }
+     .error-reconcile p{
+      font-size: 1.1rem;
+     }
+     .snap-reviewed {
+      margin: 0;
+     }
+     .snap-review-details label {
+      font-size: 1.3rem;
+     }
+     .snap-review-details span {
+      font-size: 1rem;
+     }
+    .editBtn-reconcile {
+      width: 38px;
+      height: 38px;
+    }
+    .editBtn-reconcile svg {
+      height: 18px;
+    }
+    .savex-reconcile {
+      font-size: 1.2rem;
+    }
+    .xsave-reconcile {
+      font-size: 1.2rem;
+    }
+    .pdfdown {
+      width: 43px;
+    height: 43px;
+    }
+    .snapreconciletable-head {
+      font-size: 1.1rem;
+    }
+    .snapreconciletable-row {
+      font-size: 1rem;
+    }
+     .snapreconciletable-row td {
+      text-align: center;
+     }
+     .snapwrap {
+      max-width: 350px;
+     }
+     .snapwrap1 {
+      max-width: 350px;
+     }
+     .snapwrap_drug {
+      max-width: 350px;
+     }
+     .snapwrap1_drug {
+      max-width: 350px;
+     }
+     .snaphead-nonpack {
+      font-size: 1.6rem;
+     }
+     .pdfdown1 {
+      width: 43px;
+      height: 43px;
+     }
+     .snapnonpacktable-head {
+      font-size: 1.1rem;
+     }
+     .snapnonpacktable-row {
+      font-size: 1rem;
+     }
+   }
+
+
+   @media screen and (min-width: 1750px) and (max-width:1890px) {
+     .nav-leftsnap .h5-leftsnap {
+      font-size: 1rem;
+     }
+     .nav-middlesnap .h4-midsnap {
+      font-size: 1.35rem;
+     }
+     .snap-gobtn {
+      font-size: 1rem;
+     }
+     .backbutton-snap {
+        height: 2.2rem;
+     }
+     .backbutton-snap  span {
+      font-size: 1.3rem;
+     }
+     .snapcard-pathead i {
+      font-size: 1.1rem;
+     }
+     .snapcard-pathead h6 {
+      font-size: 1.1rem;
+     }
+     .snapcard-patname {
+      font-size: 0.9rem;
+     }
+     .snap-cards {
+      width: 23%;
+     }
+     .snap-card-right .snapcards-rightp {
+      font-size: 1.3rem;
+     }
+     .patdet-card h6 {
+      font-size: 1.2rem;
+     }
+     .snaptable-head {
+      font-size: 1rem;
+     }
+     .snaptable-row {
+      font-size: 0.95rem;
+     }
+     .editBtn-snap {
+      width: 33px;
+      height: 33px;
+    }
+    .editBtn-snap svg {
+      height: 17px;
+    }
+     .snap-pushi-h7 {
+      font-size: 1rem;
+     }
+     .notes-pinsnap {
+      font-size: 0.88rem;
+      color: black;
+     }
+     .snapreconcile-head {
+      font-size: 1.4rem;
+      color: black;
+     }
+     .error-reconcile p{
+      font-size: 1rem;
+     }
+     .snap-reviewed {
+      margin: 0;
+     }
+     .snap-review-details label {
+      font-size: 1.1rem;
+     }
+     .snap-review-details span {
+      font-size: 0.9rem;
+     }
+    .editBtn-reconcile {
+      width: 33px;
+      height: 33px;
+    }
+    .editBtn-reconcile svg {
+      height: 17px;
+    }
+    .savex-reconcile {
+      font-size: 1.1rem;
+    }
+    .xsave-reconcile {
+      font-size: 1.1rem;
+    }
+    .pdfdown {
+      width: 43px;
+    height: 43px;
+    }
+    .snapreconciletable-head {
+      font-size: 1rem;
+    }
+    .snapreconciletable-row {
+      font-size: 0.9rem;
+    }
+     .snapreconciletable-row td {
+      text-align: center;
+     }
+     .snapwrap {
+      max-width: 350px;
+     }
+     .snapwrap1 {
+      max-width: 350px;
+     }
+     .snapwrap_drug {
+      max-width: 350px;
+     }
+     .snapwrap1_drug {
+      max-width: 350px;
+     }
+     .snaphead-nonpack {
+      font-size: 1.4rem;
+     }
+     .pdfdown1 {
+      width: 43px;
+      height: 43px;
+     }
+     .snapnonpacktable-head {
+      font-size: 1rem;
+     }
+     .snapnonpacktable-row {
+      font-size: 0.9rem;
+     }
+   }
+    
+
